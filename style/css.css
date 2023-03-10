@@ -1,0 +1,40 @@
+/*.button {
+    
+}
+
+.button:link{
+    color: chocolate;
+}
+.button:visited{
+    color: rgb(0, 255, 136);
+}
+.button:hover{
+    color: darkgreen;
+}
+.button:lang(ru){
+    font-weight: 100;
+    
+}
+.button:lang(en){
+    font-weight: 800;
+    
+}*/
+
+body{
+    margin: 0px; /*внешняя*/
+}
+
+.button{
+    border: 2px solid darkcyan; /*ширина*/
+    background-color: white;/*цвет фона*/
+    color: darkcyan;/*цвет текста*/
+    padding: 5px 10px 5px 10px;/*размеры*/
+    margin: 5px;  /*отступ*/
+    border-radius: 10px;/*скругление*/
+    text-decoration: none;
+}
+.button:hover{
+    background-color: darkcyan;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}*/
